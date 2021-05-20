@@ -1,3 +1,4 @@
 language: python
-script:
-  - python -m pytest -v
+python:
+  - "3.7.3"
+script: pytest -v
